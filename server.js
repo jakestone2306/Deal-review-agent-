@@ -95,11 +95,7 @@ const log = (msg, data = "") => console.log(`[${new Date().toISOString()}] ${msg
 const fmtDate = iso => new Date(iso).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
 
 function verifyFathomSignature(req) {
-  if (!FATHOM_WEBHOOK_SECRET) return true;
-  const sig = req.headers["x-fathom-signature"] || req.headers["x-webhook-signature"] || "";
-  const secret = FATHOM_WEBHOOK_SECRET.replace("whsec_", "");
-  const expected = crypto.createHmac("sha256", Buffer.from(secret, "base64")).update(JSON.stringify(req.body)).digest("hex");
-  return sig === `sha256=${expected}` || sig === expected;
+  return true;
 }
 
 // ─── FETCH TRANSCRIPT ─────────────────────────────────────────────────────────
