@@ -17,9 +17,9 @@ const {
 const OWNERS = {
   "jacob.bolton@adaptinsurance.com": { name: "Jacob Bolton",  slackId: "U07R34DT45S", hubspotOwnerId: "300195503" },
   "jake@adaptinsurance.com":         { name: "Jake Stone",    slackId: "U08357HEYJF", hubspotOwnerId: "170827178" },
-  "brandon@adaptinsurance.com":      { name: "Brandon Perez", slackId: "U0AE5DA12N9", hubspotOwnerId: "88178787"  },
+  "brandon.perez@adaptinsurance.com":{ name: "Brandon Perez", slackId: "U0AE5DA12N9", hubspotOwnerId: "88178787"  },
   "octavio@adaptinsurance.com":      { name: "Octavio Pala",  slackId: "U09RZCGQQJJ", hubspotOwnerId: "85012029"  },
-  "jacob.simon@adaptinsurance.com":  { name: "Jacob Simon",   slackId: "U02F8F5B8RM", hubspotOwnerId: "299068163" },
+  "jacob@adaptinsurance.com":        { name: "Jacob Simon",   slackId: "U02F8F5B8RM", hubspotOwnerId: "299068163" },
   "mike@adaptinsurance.com":         { name: "Mike Nelson",   slackId: "U093YRQ2R18", hubspotOwnerId: "5742259"   },
 };
 
